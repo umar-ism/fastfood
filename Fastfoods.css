@@ -1,0 +1,169 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(rgb(240, 106, 17), yellow);
+    background-position: center;
+    background-size: cover; 
+}
+
+body nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 20px;
+    cursor: pointer;
+    width: 100px;
+    height: 35px;
+    background-color: mediumslateblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px; 
+}
+
+body nav ul {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+h1 {
+    margin: 20px;
+    font-size: 30px;
+}
+
+.section1 {
+    width: 25%;
+    height: 200px;
+    background-color:white;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15%;    
+    padding: 10px;
+}
+
+.red {
+    width: 40%;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 20%;    
+}
+
+.blues {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.green {    
+    width: 40%;
+    height: 40px;
+    border-radius: 20%;
+    cursor: pointer;
+    text-align: center;
+    background-color: mediumspringgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.section2 {
+    width: 25%;
+    height: 200px;
+    background-color: white;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15%;
+    padding: 10px;    
+}
+.red2 {
+    width: 40%;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 20%;
+}
+.blues2 {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.green2 {
+    background-color: mediumspringgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 40px;
+    border-radius: 20%;
+    cursor: pointer;
+    text-align: center;
+}
+.section3 {
+    width: 25%;
+    height: 200px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15%;
+    padding: 10px;    
+}
+.red3 {
+    width: 40%;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 20%;
+}
+.blues3 {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.green3 {
+    background-color: mediumspringgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 40%;
+    height: 40px;
+    border-radius: 20%;
+    cursor: pointer;
+    text-align: center;
+}
+.hot_dogs {
+    display: flex;
+
+}
+.hamburgers {
+    display: flex;
+}
+.lavash {
+    display: flex;
+}
+
+ 
